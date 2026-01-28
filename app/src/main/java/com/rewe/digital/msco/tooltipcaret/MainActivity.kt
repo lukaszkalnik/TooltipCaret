@@ -74,7 +74,7 @@ private fun MainContent(modifier: Modifier = Modifier) {
         }
 
         items(20) {
-            Text("Filler content $it + 21")
+            Text("Filler content ${it + 21}")
         }
     }
 }
